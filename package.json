@@ -5,12 +5,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "rebuild": "electron-rebuild -f -w better-sqlite3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
+    "better-sqlite3": "^9.2.2",
     "electron": "^28.0.0",
     "electron-builder": "^24.9.1",
+    "electron-rebuild": "^3.2.9",
     "typescript": "^5.2.2",
     "vite": "4.5.1",
     "vite-plugin-optimizer": "^1.4.2",
